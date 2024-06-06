@@ -53,12 +53,15 @@ section {
         display: grid;
         grid-template-rows: 200px 200px 200px;
         grid-template-columns: 20vw 20vw 20vw;
-        row-gap: 5rem;
-        column-gap: 3rem;
-    }
+        row-gap: 25vw;
+        column-gap: 5vh;
+        }
 
 div p {
     text-align: justify;
 }
     
-
+div img {
+    height: 20rem;
+    position:relative;
+}
