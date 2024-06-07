@@ -51,7 +51,7 @@ section {
         justify-content: center;
         max-width: 80vw;
         display: grid;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px;
         grid-template-columns: 20vw 20vw 20vw;
         row-gap: 30vw;
         column-gap: 5vh;
@@ -75,5 +75,84 @@ div img {
     margin-bottom: 5rem;
     margin-top: 2.5rem;
     max-width: 10rem;;
+    text-align: center;
+}
+
+.char10  {
+    grid-column: 1 / 2;
+    color: black;
+    column-gap: 0rem;
+    max-width: 30rem;
+    margin-bottom: 0;
+}
+
+.char11 {
+    grid-column: -3/ -1;
+    color: black;
+    max-width: 30vw;
+    margin-left: 11rem;
+    margin-bottom: 0;
+    }
+
+.char10 > h1 {
+            color: black;
+        background-color: white;
+        min-width: 28rem;
+        max-width: 30rem;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-top: -1rem;
+        line-height: 1.3rem;
+        text-align: justify;
+        padding-bottom: 3rem;
+    }
+
+.char11 > h1 {
+    color: black;
+    background-color: white;
+    min-width: 28rem;
+    max-width: 30rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: -1rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+
+#p10 {
+    color: black;
+    background-color: white;
+    min-width: 28rem;
+    max-width: 30rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: -4rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    padding-bottom: 7rem;
+}
+
+.char10 img {
+    height: 30rem;
+}
+
+.char11 img {
+    height: 30rem;
+}
+
+.money_b {
+    align-self: flex-start;
+    background-color: rgb(232,63,87);
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    max-width: 11rem;;
     text-align: center;
 }
